@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+body {
+    width: 100%;
+    height: 250px;
+    overflow-x: hidden;
+}
+.container {
+    display: grid;
+    gap: 40px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 300px;
+    margin: 20px 20px 20px 20px;
+    
+}
+.titulo__conteudo {
+    text-align: center;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.menu li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 6px;
+    color: black;
+    font-family: 'Darumadrop One', cursive;
+} 
+.menu li a:hover {
+    background-color: #FF4DCE;
+    color: black;
+    padding: 4px;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+footer {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 100%;
+}
