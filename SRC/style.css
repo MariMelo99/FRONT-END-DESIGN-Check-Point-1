@@ -2,24 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
 body {
-    width: 100%;
-    height: 250px;
+   
     overflow-x: hidden;
 }
-.container {
-    display: grid;
-    gap: 40px;
-    box-sizing: border-box;
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 300px;
-    margin: 20px 20px 20px 20px;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-}
+    }
+    
+.flex-container > div {
+   
+    padding: 20px;
+    font-size: 25px;
+    }
+
+   
 .titulo__conteudo {
     text-align: center;
     color: black;
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
+
 }
+
 .menu li{
     margin: 0;
     padding: 0;
@@ -37,13 +45,31 @@ body {
     color: black;
     padding: 4px;
 }
+
 img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
+
 footer {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     width: 100%;
 }
+.paragrafo__conteudo {
+    text-align: center;
+}
+table,
+th {
+    border-radius: 10px;
+    padding: .7em;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+
+}
+
